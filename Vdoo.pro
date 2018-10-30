@@ -28,26 +28,6 @@ USE_UPNP=1
 # workaround for boost 1.58
 #DEFINES += BOOST_VARIANT_USE_RELAXED_GET_BY_DEFAULT
 
-BOOST_LIB_SUFFIX=-mgw49-mt-s-1_57
-BOOST_INCLUDE_PATH=M:/deps/boost_1_57_0
-BOOST_LIB_PATH=M:/deps/boost_1_57_0/stage/lib
-
-BDB_INCLUDE_PATH=M:/deps/db-4.8.30.NC/build_unix
-BDB_LIB_PATH=M:/deps/db-4.8.30.NC/build_unix
-
-OPENSSL_INCLUDE_PATH=M:/deps/openssl-1.0.1e/include
-OPENSSL_LIB_PATH=M:/deps/openssl-1.0.1e
-
-MINIUPNPC_INCLUDE_PATH=M:/deps/miniupnpc-1.8
-MINIUPNPC_LIB_PATH=M:/deps/miniupnpc-1.8/miniupnpc
-
-QRENCODE_INCLUDE_PATH=M:/deps/qrencode-3.4.3
-QRENCODE_LIB_PATH=M:/deps/qrencode-3.4.3/.libs
-SECP256K1_INCLUDE_PATH=M:/deps/secp256k1/include
-SECP256K1_LIB_PATH=M:/deps/secp256k1/lib
-
-
-
 OBJECTS_DIR = build
 MOC_DIR = build
 UI_DIR = build
